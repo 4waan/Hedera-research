@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Vendored upstream trees. ATS is pinned by SHA in NOTICE.
+asset-tokenization-studio/
+ats-pr1/
+ats-pr2/
+
+# Foundry
+venue/out/
+venue/cache/
+venue/lib/
+
+# Generated circuit material. Sources live in venue/circuits/*.circom
+venue/circuits/build/
+
+# Scratch and superseded revisions
+*.bak
+*.pre-mu14
+
+# Internal working notes, not published
+AUDIT-BOX.md
+BUILD-PLAN.md
+DESIGN-DECISIONS.md
+HANDOFF.md
+JUDGING-CRITERIA.md
+SUCCESS.md
+VALIDATION.md
+build-plan.html
