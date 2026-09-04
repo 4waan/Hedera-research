@@ -1,0 +1,24 @@
+Fetching https://docs.londonstockexchange.com/sites/default/files/documents/turquoise-plato-block-discovery-trading-service-description-v2_28.1.pdf
+Got   769829 bytes
+Pages: 40   Characters: 100549
+
+OK   MK-013  one predicate, to the matched parties only
+OK   MK-013  nothing reaches anyone else pre-match
+OK   MK-013  the match reveals no counterparty detail
+OK   MK-013  the indication is non-actionable
+OK   MK-016  dishonest firm-up scores zero
+OK   MK-016  honest firm-up scores 50 to 100
+OK   MK-016  events combine by recency
+OK   MK-016  the only enforcement is exclusion
+OK   MK-016  the score is a wire field
+OK   MK-017  the eligibility floor scales with LIS
+
+10 of 10 verbatim quotes confirmed.
+
+NOTE
+  Every quote V3 relies on comes from this document, sections 5.2, 5.3.4 and
+  5.3.5. The finding is that the disclosure it specifies (one predicate over
+  hidden data, to a recipient set derived from that data) is achieved by an
+  operator reading the cleartext, and that honest behaviour afterwards is
+  enforced by a recency-weighted reputation score rather than by a proof.
+  That is the fifth mechanism, and it is the one nearest our own design.

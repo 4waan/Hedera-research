@@ -19,7 +19,7 @@ venue/circuits/build/
 
 # Scratch and superseded revisions
 *.bak
-*.pre-mu14
+*.pre-*
 
 # Internal working notes, not published
 AUDIT-BOX.md
